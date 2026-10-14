@@ -1,7 +1,9 @@
 # mini-lualatex
-A minimal LuaLaTeX tarball, that facilitates LaTeX compilation of accessible transcriptions for physics videos inside of a cloud-based Python notebook, such as Colab.
+A minimal LuaLaTeX tarball, that facilitates LaTeX compilation in a cloud-based Python notebook, such as Colab. The specific task in mind was compiling accessible transcriptions for physics videos (see https://arxiv.org/abs/2608.20733), although in principle this tool should be capable of compiling a large class of LuaLaTeX (Version 1.24.0, TeX Live 2026) files.
 
-This project contains:
+CONTENTS:
+
+README.md: This file
 
 LaTeXCloudNotebookCompile.ipynb: Notebook that can be used (with small modifications) to compile .tex files inside of a users Google Drive.
 
